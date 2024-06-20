@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EXERCICIO1 - FORMULÁRIO</title>
+    <link rel="stylesheet" type="text/css" href="style.css" media="screen">
+</head>
+<body>
+    <h1> ATIVIDADE 1 - Cadastro de livros </h1>
+    <form method="post" action="https://script.google.com/macros/s/AKfycbwVlGluf9zucX4iVrA3Xy_uFWXUmvpKOs2XyzpZhr2uwD_RQ91Dsf40WZLwYxlf7ppq/exec">
+        Titulo: <input type="text" name="titulo"> <br>
+        Autor: <input type="text" name="autor"> <br>
+        Genero: <select name="genero">
+            <option>Romance</option>
+            <option>Drama e Romance</option>
+            <option>Comédia e Romance</option>
+            <option>Terror e Romance</option>
+            <option>Hot</option>
+
+        </select>
+        <br>
+        Número de páginas: 
+        <input type="radio" name="numPagina" value="pequeno 0-150"> Pequeno 0-150
+        <input type="radio" name="numPagina" value="medio 150-360"> Médio  150-360
+        <input type="radio" name="numPagina" value="grande 360+"> Grande 360+
+        <br>
+        DATA: <input type="date" name="data"><br>
+        Sinopse:<br>
+        <textarea name="sinopse" rows="10" cols="30"></textarea>
+        <br>
+        <input type="submit">
+    </form>
+</body>
+</html>
