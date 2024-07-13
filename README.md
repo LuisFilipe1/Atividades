@@ -33,3 +33,6 @@ O objetivo do exercício 2 era a criação de uma tabela com campos em branco e 
 
 
 Para a prática do exercício 3 era necessário criar novamente uma tabela, só que desta vez com imagens nas células e com um link permitindo que se clique nelas e seja redirecionado para outra página, no caso utilizei a pesquisa padrão no google e ao clicar em uma das imagens se é direcionado para a pesquisa "Adoção de 'gato ou cachorro(Dependendo da imagem que foi clicada)'".
+
+
+###### ps. ainda tenho dificuldade com formatação de texto com MD.
